@@ -1,0 +1,104 @@
+* {
+  box-sizing: border-box;
+  margin: 0px;
+  padding: 0px;
+}
+
+body {
+  background: url("./img/gach-op-chan-tuong-phong-khach-9.jpg");
+}
+
+/* nav */
+
+#nav {
+  top: 0px;
+  position: fixed;
+  color: white;
+  margin: 0px 100px;
+  display: flex;
+  justify-content: space-around;
+  padding: 20px;
+  align-items: center;
+}
+
+#nav .nav-1 {
+  display: flex;
+  list-style: none;
+}
+
+#nav .nav-1 li {
+  padding: 0px 0px 10px 0px;
+}
+
+#nav .nav-3 {
+  display: flex;
+  list-style: none;
+}
+
+#nav ul li {
+  margin-left: 30px;
+  margin-right: 30px;
+}
+
+#nav ul li:hover {
+  padding-bottom: 10px;
+  border-bottom: 2px solid greenyellow;
+}
+
+#nav .share {
+  margin-top: -10px;
+  display: block;
+  border: none;
+  padding: 10px;
+  background-color: rgb(7, 199, 7);
+  border-radius: 6px;
+}
+
+/* header */
+
+#header {
+  height: 466px;
+}
+
+#header p {
+  margin-top: 120px;
+  color: whitesmoke;
+  font-size: 40px;
+  text-align: center;
+}
+
+#header table {
+  margin: 100px auto 0px;
+  border-spacing: 40px 0px;
+}
+
+#header .button, .submit {
+  padding: 10px 20px;
+  border-radius: 3px;
+  color: whitesmoke;
+  border: none;
+}
+
+#header .button {
+  background-color: rgb(35, 168, 46);
+}
+
+#header .submit {
+  background-color: rgb(150, 150, 150);
+}
+
+#header .button:hover {
+  background-color: rgb(0, 255, 21);
+}
+
+#header .submit:hover {
+  background-color: rgb(0, 0, 0);
+}
+
+/* section:title */
+
+#title {
+  background-color: whitesmoke;
+  padding: 38px 300px;
+  text-align: center;
+}
