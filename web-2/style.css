@@ -4,14 +4,20 @@
   padding: 0px;
 }
 
-body {
+/* -----------------------------------------------------------------------------------------------*\
+                                        # HEADER
+\*----------------------------------------------------------------------------------------------- */
+
+#header {
+  padding-top: 80px;
+  position: relative;
+  height: 566px;
   background: url("./img/gach-op-chan-tuong-phong-khach-9.jpg");
 }
-
-/* nav */
-
-#nav {
-  background-color: rgba(0, 0, 0, 0.541) ;
+/*============================================== nav =============================================*/
+#header .nav {
+  background-color: rgba(0, 0, 0, 0.541);
+  height: 80px;
   top: 0px;
   position: fixed;
   color: white;
@@ -20,33 +26,39 @@ body {
   justify-content: space-around;
   padding: 20px;
   align-items: center;
+  border-radius: 4px;
 }
 
-#nav .nav-1 {
+#header .nav .nav-1 {
   display: flex;
   list-style: none;
 }
 
-#nav .nav-1 li {
+#header .nav .nav-1 li {
   padding: 0px 0px 10px 0px;
 }
+#header .nav .nav-1 li a {
+  text-decoration: none;
+  color: white;
+}
 
-#nav .nav-3 {
+#header .nav .nav-3 {
   display: flex;
   list-style: none;
 }
 
-#nav ul li {
+#header .nav ul li {
   margin-left: 30px;
   margin-right: 30px;
 }
 
-#nav ul li:hover {
+#header .nav ul li:hover {
   padding-bottom: 10px;
   border-bottom: 2px solid greenyellow;
+  cursor: pointer;
 }
 
-#nav .share {
+#header .nav .share {
   margin-top: -10px;
   display: block;
   border: none;
@@ -54,14 +66,8 @@ body {
   background-color: rgb(7, 199, 7);
   border-radius: 6px;
 }
-
-/* header */
-
-#header {
-  height: 466px;
-}
-
-#header p {
+/*======================================= header body ============================================*/
+#header .nav-4 {
   margin-top: 120px;
   color: whitesmoke;
   font-size: 40px;
@@ -96,7 +102,21 @@ body {
   background-color: rgb(0, 0, 0);
 }
 
-/* section:title */
+/* -----------------------------------------------------------------------------------------------*\
+                                           #SECTION: MAIN
+\*----------------------------------------------------------------------------------------------- */
+
+main {
+  background-color: aliceblue;
+  position: relative;
+  z-index: -1;
+}
+
+
+
+/* -----------------------------------------------------------------------------------------------*\
+                                          #SECTION: TITLE
+\*----------------------------------------------------------------------------------------------- */
 
 #title {
   background-color: whitesmoke;
@@ -104,9 +124,11 @@ body {
   text-align: center;
 }
 
-/* section: what we do  */
+/* -----------------------------------------------------------------------------------------------*\
+                                        #SECTION: WHAT WE DO
+\*----------------------------------------------------------------------------------------------- */
 
-/* p-1  */
+/* =========================================== p-1 =============================================  */
 #what_we_do {
   padding: 120px 200px 0px 200px;
   background: rgb(255, 255, 255);
@@ -134,7 +156,7 @@ body {
   background-color: rgb(0, 255, 21);
 }
 
-/* p-2  */
+/* =========================================== p-2 =============================================  */
 
 #what_we_do .p-2 {
   margin-top: 30px;
@@ -176,7 +198,7 @@ body {
   background-color: greenyellow;
 }
 
-/* p-3 */
+/* ============================================ p-3 ============================================= */
 
 #what_we_do .p-3 {
   padding: 30px 30px;
@@ -196,7 +218,7 @@ body {
   font-size: 20px; 
 }
 
-/* p-4  */
+/* =========================================== p-4 ============================================== */
 #what_we_do .p-4 .p-4-1, .p-4-2 {
   display: flex;
   margin-left: -100px;
@@ -226,7 +248,7 @@ body {
   height: 100px;
 }
 
-/* p-5 */
+/* =========================================== p-5 ============================================== */
 
 #what_we_do .p-5 {
   margin-top: 40px;
@@ -271,13 +293,15 @@ body {
   background-color: pink;
   color: brown;
 }
-/* section: reading resources */
+/* -----------------------------------------------------------------------------------------------*\
+                                    #SECTION: READING RESOURCES
+\*----------------------------------------------------------------------------------------------- */
 #reading {
   margin-top: -30px;
   padding: 0px 200px 120px 230px;
   background: rgb(255, 255, 255);
 }
-/* reading-1 */
+/* ========================================= reading-1 ========================================== */
 #reading .reading-1 p{
   font-size: 10px;
   color:rgb(7, 199, 7);
@@ -300,7 +324,7 @@ body {
   background-color: rgb(0, 255, 21);
 }
 
-/* reading-2 */
+/* ========================================== reading-2 ========================================= */
 
 #reading .reading-2 {
   margin-top: 30px;
@@ -336,6 +360,8 @@ body {
   background-color: greenyellow;
 }
 
+/* ======================================== reading-3 =========================================== */
+
 #reading .reading-3 {
   color: aliceblue;
   text-align: center;
@@ -351,38 +377,40 @@ body {
   margin-bottom: 10px;
   font-weight: bold;
 }
-#reading table {
+#reading .reading-3 table {
   margin: 20px auto 0px;
   border-spacing: 0px 0px;
 }
 
-#reading .text, .submit {
+#reading .reading-3 .text, .submit {
   padding: 10px 20px;
   border-radius: 3px;
   color: whitesmoke;
   border: none;
 }
 
-#reading .text {
+#reading .reading-3 .text {
   background-color: rgb(255, 254, 254);
   color: greenyellow;
 }
 
-#reading .submit {
+#reading .reading-3 .submit {
   background-color: rgb(176, 255, 183);
   color: rgb(0, 163, 0);
   font-weight: bold;
 }
 
-#reading .text:hover {
+#reading .reading-3 .text:hover {
   background-color: rgb(189, 189, 189);
 }
 
-#reading .submit:hover {
+#reading .reading-3 .submit:hover {
   background-color: rgb(35, 255, 244);
 }
 
-/* footer */
+/* -----------------------------------------------------------------------------------------------*\
+                                          #PAGE FOOTER
+\*----------------------------------------------------------------------------------------------- */
 
 #footer {
   padding: 40px 200px 40px 230px;
