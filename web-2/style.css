@@ -108,7 +108,7 @@ body {
 
 /* p-1  */
 #what_we_do {
-  padding: 120px 200px;
+  padding: 120px 200px 0px 200px;
   background: rgb(255, 255, 255);
 }
 
@@ -172,6 +172,10 @@ body {
   background-color: rgb(35, 168, 46);
 }
 
+#what_we_do .p-2 input:hover{
+  background-color: greenyellow;
+}
+
 /* p-3 */
 
 #what_we_do .p-3 {
@@ -209,12 +213,14 @@ body {
 }
 
 #what_we_do .p-4 .p-4-1 fieldset {
+  border: 1px solid grey;
   margin-right: 30px;
   width: 400px;
   height: 100px;
 }
 
-#what_we_do .p-4 .p-4-2 fieldset {
+#what_we_do .p-4 .p-4-2 fieldset { 
+  border: 1px solid grey;
   margin-right: 30px;
   width: 400px;
   height: 100px;
@@ -229,7 +235,7 @@ body {
 
 #what_we_do .p-5 .p-5-1 {
   width: 400px;
-  height: 600px;
+  height: 400px;
 }
 #what_we_do .p-5 .p-5-1 p{
   font-size: 20px;
@@ -259,4 +265,139 @@ body {
   background-color: rgb(18, 121, 14);
   border-radius: 4px;
   border: none;
+}
+
+#what_we_do .p-5 .p-5-2 table button:hover{
+  background-color: pink;
+  color: brown;
+}
+/* section: reading resources */
+#reading {
+  margin-top: -30px;
+  padding: 0px 200px 120px 230px;
+  background: rgb(255, 255, 255);
+}
+/* reading-1 */
+#reading .reading-1 p{
+  font-size: 10px;
+  color:rgb(7, 199, 7);
+}
+
+#reading .reading-1 {
+  border-collapse: separate;
+  border-spacing: 50px 5px;
+}
+
+#reading .reading-1 .button {
+  padding: 10px 20px;
+  border-radius: 3px;
+  color: whitesmoke;
+  border: none;
+  background-color: rgb(35, 168, 46);
+}
+
+#reading .button:hover {
+  background-color: rgb(0, 255, 21);
+}
+
+/* reading-2 */
+
+#reading .reading-2 {
+  margin-top: 30px;
+  display: flex;
+  margin-bottom: 40px;
+}
+
+#reading .reading-2 fieldset {
+  border: 1px solid rgb(163, 163, 163);
+  border-radius: 7px;
+  width: 230px;
+  height: 250px;
+  padding: 0px 0px 0px 30px;
+  margin-right: 40px;
+}
+
+#reading .reading-2 p {
+  padding-top: 20px;
+  padding-right: 30px;
+  padding-bottom: 20px;
+}
+
+#reading .reading-2 input {
+  margin: 0px 30px ;
+  padding: 10px 20px;
+  border-radius: 3px;
+  color: whitesmoke;
+  border: none;
+  background-color: rgb(35, 168, 46);
+}
+
+#reading .reading-2 input:hover{
+  background-color: greenyellow;
+}
+
+#reading .reading-3 {
+  color: aliceblue;
+  text-align: center;
+  padding: 30px 30px;
+  background-color: rgb(35, 168, 46);
+  border-radius: 7px;
+  border: 1px solid gray;
+  margin-bottom: 40px;
+}
+
+#reading .reading-3 p{
+  font-size: 20px;
+  margin-bottom: 10px;
+  font-weight: bold;
+}
+#reading table {
+  margin: 20px auto 0px;
+  border-spacing: 0px 0px;
+}
+
+#reading .text, .submit {
+  padding: 10px 20px;
+  border-radius: 3px;
+  color: whitesmoke;
+  border: none;
+}
+
+#reading .text {
+  background-color: rgb(255, 254, 254);
+  color: greenyellow;
+}
+
+#reading .submit {
+  background-color: rgb(176, 255, 183);
+  color: rgb(0, 163, 0);
+  font-weight: bold;
+}
+
+#reading .text:hover {
+  background-color: rgb(189, 189, 189);
+}
+
+#reading .submit:hover {
+  background-color: rgb(35, 255, 244);
+}
+
+/* footer */
+
+#footer {
+  padding: 40px 200px 40px 230px;
+  background-color: rgb(46, 46, 46);
+  color: aliceblue;
+  display: flex;
+  justify-content: space-between;
+}
+
+#footer .footer-1, .footer-2{
+  font-size: small;
+}
+
+#footer .footer-1 .footer-1-1 .fab{
+  border-radius: 100%;
+  background-color: green;
+  border:1px solid green;
 }
