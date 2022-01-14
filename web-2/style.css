@@ -27,6 +27,7 @@
   padding: 20px;
   align-items: center;
   border-radius: 4px;
+  z-index: 1;
 }
 
 #header .nav .nav-1 {
@@ -109,7 +110,6 @@
 main {
   background-color: aliceblue;
   position: relative;
-  z-index: -1;
 }
 
 
@@ -308,7 +308,6 @@ main {
 }
 
 #reading .reading-1 {
-  border-collapse: separate;
   border-spacing: 50px 5px;
 }
 
