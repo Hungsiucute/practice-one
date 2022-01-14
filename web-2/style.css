@@ -13,6 +13,9 @@
   position: relative;
   height: 566px;
   background: url("./img/gach-op-chan-tuong-phong-khach-9.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
 }
 /*============================================== nav =============================================*/
 #header .nav {
@@ -376,6 +379,7 @@ main {
   margin-bottom: 10px;
   font-weight: bold;
 }
+
 #reading .reading-3 table {
   margin: 20px auto 0px;
   border-spacing: 0px 0px;
